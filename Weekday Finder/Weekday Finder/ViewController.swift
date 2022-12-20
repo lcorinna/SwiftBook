@@ -12,10 +12,10 @@ class ViewController: UIViewController {
     @IBOutlet weak var dateTextField: UITextField!
     @IBOutlet weak var monthTextField: UITextField!
     @IBOutlet weak var yearTextField: UITextField!
-
+    
     @IBOutlet weak var resultLabel: UILabel!
     
-
+    
     @IBAction func findDay(_ sender: Any) {
         guard dateTextField.text != "" && monthTextField.text != "" && yearTextField.text != "" else { resultLabel.text = "Fields should not be empty"
             return }
@@ -43,10 +43,10 @@ class ViewController: UIViewController {
             let capitalizedWeekday = weekday.capitalized
             
             resultLabel.text = capitalizedWeekday
-            } else {
-                resultLabel.text = "Error of input values. Try again"
-            }
+        } else {
+            resultLabel.text = "Error of input values. Try again"
         }
+    }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         self.view.endEditing(true)

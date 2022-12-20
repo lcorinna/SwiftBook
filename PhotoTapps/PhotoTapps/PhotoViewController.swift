@@ -8,7 +8,6 @@
 import UIKit
 
 class PhotoViewController: UIViewController {
-
     
     var image: UIImage?
     
@@ -16,18 +15,16 @@ class PhotoViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         photoImageView.image = image
     }
-
+    
     @IBAction func shareAction(_ sender: UIButton) {
         let shareControllet = UIActivityViewController(activityItems: [image!], applicationActivities: nil)
         
         shareControllet.completionWithItemsHandler = { _, bool, _, _ in
             if bool {
-                 
             }
-            
         }
         present(shareControllet, animated: true, completion: nil)
     }
