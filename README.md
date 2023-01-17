@@ -17,8 +17,8 @@ PassDataProject is an application for transferring data from one view to another
 
 ![PassDataProject](https://github.com/lcorinna/SwiftBook/blob/main/gif%20animated/PassDataProject%20.gif)
 
-PhotoApps application is dedicated to working with CollectionView. We have pictures that you can add to gallery on your phone in a few clicks or put an image to a contact from your notebook
-> PhotoApps - это приложение посвящено работе с CollectionView. У нас есть фотографии, которые вы можете добавить в галерею на своем телефоне в несколько кликов или отправить изображение контакту из своего ноутбука
+PhotoApps application is dedicated to working with CollectionView. We have photos that you can add to the gallery on your phone in a few clicks or send an image to your contacts
+> PhotoApps - это приложение посвящено работе с CollectionView. У нас есть фотографии, которые вы можете добавить в галерею на своем телефоне в несколько кликов или отправить изображение своим контактам
 
 ![PhotoApps](https://github.com/lcorinna/SwiftBook/blob/main/gif%20animated/PhotoTapps.gif)
 
