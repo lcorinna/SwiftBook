@@ -7,26 +7,32 @@ Five mini-applications on Storyboard to get acquainted with the functionality of
 1. WeeklyFinder
 ___
 
+# EmojiReader
+
 EmojiReader is an application for recording emoticons. There are three input fields on the "add" view, the first is a graphical representation of the smiley, the second is its name and the third is a description. The program will not allow you to finish adding a new smiley face until all the fields are filled in. Also in the main view, we can edit our list by swapping items, adding favorite emoticons to favorites or deleting them
 > Emoji Reader - это приложение для записи смайликов. В представлении "добавить" есть три поля ввода, первое - графическое представление смайлика, второе - его название и третье - описание. Программа не позволит вам завершить добавление нового смайлика до тех пор, пока не будут заполнены все поля. Также в главном окне мы можем редактировать наш список, меняя местами элементы, добавляя любимые смайлики в избранное или удаляя их
 
 ![EmojiReader](https://github.com/lcorinna/SwiftBook/blob/main/gif%20animated/EmojiReader.gif)
 
+# PassDataProject
 PassDataProject is an application for transferring data from one view to another. The user is presented with two fields for entering data, after filling them in and clicking the "Login" button, we are transferred to the second view where us are greeted by the name that we specified earlier
 > PassDataProject - это приложение для передачи данных из одного представления в другое. Пользователю представлены два поля для ввода данных, после их заполнения и нажатия кнопки "Login" мы переходим ко второму представлению, где нас приветствует имя, которое мы указали ранее
 
 ![PassDataProject](https://github.com/lcorinna/SwiftBook/blob/main/gif%20animated/PassDataProject%20.gif)
 
+# PhotoApps
 PhotoApps application is dedicated to working with CollectionView. We have photos that you can add to the gallery on your phone in a few clicks or send an image to your contacts
 > PhotoApps - это приложение посвящено работе с CollectionView. У нас есть фотографии, которые вы можете добавить в галерею на своем телефоне в несколько кликов или отправить изображение своим контактам
 
 ![PhotoApps](https://github.com/lcorinna/SwiftBook/blob/main/gif%20animated/PhotoTapps.gif)
 
+# TConverter
 TConverter is an application for converting degrees Celsius to degrees Fahrenheit
 > TConverter - это приложение для преобразования градусов Цельсия в градусы Фаренгейта
 
 ![TConverter](https://github.com/lcorinna/SwiftBook/blob/main/gif%20animated/TConverter.gif)
 
+# WeeklyFinder
 WeeklyFinder is an application for finding the day of the week by its date (date, month, year)
 > WeeklyFinder - это приложение для поиска дня недели по его дате (число, месяц, год).
 
